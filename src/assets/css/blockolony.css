@@ -27,14 +27,10 @@ h1 {
     display: block;
 }
 
-.Header-white-21 .brandName {
+.jss21 .brandName {
     display: none !important;
 }
 
 .MuiSvgIcon-root-155 {
     margin-left: 10px !important;
-}
-
-.Footer-block-356:hover {
-    color: #354A9F !important;
 }
