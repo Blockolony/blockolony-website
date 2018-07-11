@@ -23,9 +23,6 @@ import ProductSection from "./Sections/ProductSection.jsx";
 import TeamSection from "./Sections/TeamSection.jsx";
 import WorkSection from "./Sections/WorkSection.jsx";
 
-// Custom css
-import "assets/css/header.css";
-
 const dashboardRoutes = [];
 
 class LandingPage extends React.Component {
