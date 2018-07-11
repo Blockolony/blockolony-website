@@ -43,7 +43,7 @@ class TeamSection extends React.Component {
                 <h4 className={classes.cardTitle}>
                   Dominic Reynolds
                   <br />
-                  <small className={classes.smallTitle}>CEO & Co-founder</small>
+                  <small className={classes.smallTitle}>Position</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
@@ -77,7 +77,7 @@ class TeamSection extends React.Component {
                 <h4 className={classes.cardTitle}>
                   Jack Leslie
                   <br />
-                  <small className={classes.smallTitle}>Developer & Co-founder</small>
+                  <small className={classes.smallTitle}>Position</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
@@ -111,7 +111,7 @@ class TeamSection extends React.Component {
                 <h4 className={classes.cardTitle}>
                   Ankit Dawar
                   <br />
-                  <small className={classes.smallTitle}>Co-head of India</small>
+                  <small className={classes.smallTitle}>Position</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
@@ -145,7 +145,7 @@ class TeamSection extends React.Component {
                 <h4 className={classes.cardTitle}>
                   Shivil Sahni
                   <br />
-                  <small className={classes.smallTitle}>Co-head of India</small>
+                  <small className={classes.smallTitle}>Position</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
@@ -179,7 +179,7 @@ class TeamSection extends React.Component {
                 <h4 className={classes.cardTitle}>
                   Harrison Gwinnett
                   <br />
-                  <small className={classes.smallTitle}>Head of UK</small>
+                  <small className={classes.smallTitle}>Position</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
