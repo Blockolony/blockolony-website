@@ -21,13 +21,13 @@ class Words extends Component {
   render() {
     return (
       <div>
-        <h1 className="typist-header">Our aim is to be your blockchain
+        <h1 className="typist-header">Our mission is to be your blockchain
         {this.state.typing
           ? <Typist onTypingDone={this.done}>
-              <span> education</span>
-              <Typist.Backspace count={9} delay={2000} />
               <span> network</span>
               <Typist.Backspace count={7} delay={2000} />
+              <span> education</span>
+              <Typist.Backspace count={9} delay={2000} />
               <span> avenue</span>
               <Typist.Backspace count={7} delay={2000} />
             </Typist>

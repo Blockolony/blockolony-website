@@ -47,10 +47,10 @@ class LandingPage extends React.Component {
               <GridItem xs={12} sm={12} md={6}>
                 <Words/>
                 <h4>
-                  We want to create a resourceful network for anyone
-                  interested in the blockchain space. Our events are
-                  for investors, developers, miners and enthusiasts
-                  alike.
+                  We have created a free resourceful network that anyone can
+                  benefit from being a part of. Our events and educational
+                  resources are for individuals interested in investing,
+                  developing, mining and learning more about blockchain technology.
                 </h4>
                 <br />
                 <Button

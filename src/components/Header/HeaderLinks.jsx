@@ -10,7 +10,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, Event, Note, Map } from "@material-ui/icons";
+import { Apps, Event, Book, Map, CardMembership } from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
@@ -22,6 +22,15 @@ function HeaderLinks({ ...props }) {
   const { classes } = props;
   return (
     <List className={classes.list}>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/events"
+          color="transparent"
+          className={classes.navLink}
+        >
+          <CardMembership className={classes.icons} /> Join
+        </Button>
+      </ListItem>
       <ListItem className={classes.listItem}>
         <Button
           href="/events"
@@ -46,7 +55,7 @@ function HeaderLinks({ ...props }) {
           color="transparent"
           className={classes.navLink}
         >
-          <Note className={classes.icons} /> Resources
+          <Book className={classes.icons} /> Resources
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -67,6 +76,16 @@ function HeaderLinks({ ...props }) {
           className={classes.navLink}
         >
           <i className={classes.socialIcons + " fab fa-facebook"} />
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          color="transparent"
+          href="https://youtube.com/blockolony"
+          target="_blank"
+          className={classes.navLink}
+        >
+          <i className={classes.socialIcons + " fab fa-youtube"} />
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

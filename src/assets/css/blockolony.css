@@ -18,6 +18,12 @@ h1 {
         font-size: 40px !important;
     }
 
+    .jss5 {
+        margin: -60px 20px 0px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
 }
 
 .brandName {
@@ -37,6 +43,18 @@ h1 {
 
 .jss287 {
     margin-left: 10px !important;
+}
+
+.jss270 {
+    padding-bottom: 30px !important;
+}
+
+.jss288 {
+    padding: 30px 0 !important;
+}
+
+.jss311 {
+    padding-top: 0px !important;
 }
 
 .MuiSvgIcon-root-155 {
