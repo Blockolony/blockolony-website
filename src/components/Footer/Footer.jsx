@@ -44,6 +44,24 @@ function Footer({ ...props }) {
                 About
               </a>
             </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="/"
+                className={classes.block}
+                target="_blank"
+              >
+                Contact
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="/"
+                className={classes.block}
+                target="_blank"
+              >
+                Legal
+              </a>
+            </ListItem>
           </List>
         </div>
         <div className={classes.right}>

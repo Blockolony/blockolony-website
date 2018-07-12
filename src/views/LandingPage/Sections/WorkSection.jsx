@@ -45,28 +45,28 @@ class WorkSection extends React.Component {
                     }}
                   />
                 </GridItem>
-                <CustomInput
-                  labelText="Your Message"
-                  id="message"
-                  formControlProps={{
-                    fullWidth: true,
-                    className: classes.textArea
-                  }}
-                  inputProps={{
-                    multiline: true,
-                    rows: 5
-                  }}
-                />
-                <GridContainer justify="center">
-                  <GridItem
-                    xs={12}
-                    sm={12}
-                    md={4}
-                    className={classes.textCenter}
-                  >
-                    <Button color="primary">Send Message</Button>
-                  </GridItem>
-                </GridContainer>
+                <GridItem xs={12} sm={12} md={12}>
+                  <CustomInput
+                    labelText="Your Message"
+                    id="message"
+                    formControlProps={{
+                      fullWidth: true,
+                      className: classes.textArea
+                    }}
+                    inputProps={{
+                      multiline: true,
+                      rows: 5
+                    }}
+                  />
+                </GridItem>
+                <GridItem
+                  xs={12}
+                  sm={12}
+                  md={12}
+                  className={classes.textCenter}
+                >
+                  <Button color="primary">Send Message</Button>
+                </GridItem>
               </GridContainer>
             </form>
           </GridItem>
