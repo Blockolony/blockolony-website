@@ -10,7 +10,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, Event, Book, Map, CardMembership } from "@material-ui/icons";
+import { Apps, Event, Book, Map, CardMembership, People } from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
@@ -51,51 +51,20 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
+          href="/team"
+          color="transparent"
+          className={classes.navLink}
+        >
+          <People className={classes.icons} /> Team
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
           href="/resources"
           color="transparent"
           className={classes.navLink}
         >
           <Book className={classes.icons} /> Resources
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href="https://instagram.com/blockolony"
-          target="_blank"
-          color="transparent"
-          className={classes.navLink}
-        >
-          <i className={classes.socialIcons + " fab fa-instagram"} />
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          color="transparent"
-          href="https://www.facebook.com/blockolony"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <i className={classes.socialIcons + " fab fa-facebook"} />
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          color="transparent"
-          href="https://youtube.com/blockolony"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <i className={classes.socialIcons + " fab fa-youtube"} />
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          color="transparent"
-          href="https://t.me/blockolony"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <i className={classes.socialIcons + " fab fa-telegram-plane"} />
         </Button>
       </ListItem>
     </List>

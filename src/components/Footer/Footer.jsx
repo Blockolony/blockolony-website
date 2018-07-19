@@ -65,7 +65,44 @@ function Footer({ ...props }) {
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} Blockolony LLP
+          <List className={classes.list}>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://instagram.com/blockolony"
+                className={classes.block}
+                target="_blank"
+              >
+                <i className={classes.socialIcons + " fab fa-instagram"} />
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://facebook.com/blockolony"
+                className={classes.block}
+                target="_blank"
+              >
+                <i className={classes.socialIcons + " fab fa-facebook"} />
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://youtube.com/blockolony"
+                className={classes.block}
+                target="_blank"
+              >
+                <i className={classes.socialIcons + " fab fa-youtube"} />
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://t.me/blockolony"
+                className={classes.block}
+                target="_blank"
+              >
+                <i className={classes.socialIcons + " fab fa-telegram-plane"} />
+              </a>
+            </ListItem>
+          </List>
         </div>
       </div>
     </footer>
