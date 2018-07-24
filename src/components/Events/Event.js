@@ -45,15 +45,15 @@ class Event extends Component {
             height="100%"
           />
           <div className="slick-caption">
-            <h3>
+            <h2>
               {this.state.name}
-            </h3>
+            </h2>
           </div>
         </a>
         <div className="slick-caption-mobile">
-          <h3>
+          <h6>
             {this.state.name}
-          </h3>
+          </h6>
         </div>
       </div>
     );

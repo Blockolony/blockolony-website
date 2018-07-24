@@ -734,8 +734,10 @@ td.rdtYear:hover {
       display: block !important; }
     .slick-slider .slick-caption-mobile {
       display: none !important; }
-    .slick-slider .slick-caption-mobile h3 {
-      line-height: 1 !important; }
+    .slick-slider .slick-caption-mobile h4 {
+      line-height: 1 !important;
+      padding-left: 10px !important;
+      padding-right: 10px !important; }
     .slick-slider .slick-dots {
       display: none !important; }
   }
@@ -751,6 +753,9 @@ td.rdtYear:hover {
     text-align: center;
     z-index: 3;
     display: none; }
+  .slick-slider .slick-caption h2 {
+    font-weight: 400 !important;
+  }
   .slick-slider .slick-caption-mobile {
     text-align: center;
     color: #999; }
