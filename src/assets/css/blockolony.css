@@ -8,11 +8,6 @@ h1 {
     color: #FFFFFF !important;
 }
 
-a:hover, a:focus {
-    color: #354A9F !important;
-    text-decoration: none;
-}
-
 .logo {
     width: 60px;
     margin-bottom: -2px;
@@ -73,8 +68,4 @@ a:hover, a:focus {
 
 .MuiSvgIcon-root-155 {
     margin-left: 10px !important;
-}
-
-.jss335 {
-    padding-top: 0px !important;
 }
