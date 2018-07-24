@@ -731,7 +731,14 @@ td.rdtYear:hover {
   -webkit-tap-highlight-color: transparent; }
   @media (min-width: 768px) {
     .slick-slider .slick-caption {
-      display: block !important; } }
+      display: block !important; }
+    .slick-slider .slick-caption-mobile {
+      display: none !important; }
+    .slick-slider .slick-caption-mobile h3 {
+      line-height: 1 !important; }
+    .slick-slider .slick-dots {
+      display: none !important; }
+  }
   .slick-slider .slick-caption {
     padding-bottom: 45px;
     position: absolute;
@@ -744,6 +751,9 @@ td.rdtYear:hover {
     text-align: center;
     z-index: 3;
     display: none; }
+  .slick-slider .slick-caption-mobile {
+    text-align: center;
+    color: #999; }
   .slick-slider .slick-slide > div:first-child {
     position: relative; }
   .slick-slider .slick-icons {

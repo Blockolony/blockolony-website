@@ -50,6 +50,11 @@ class Event extends Component {
             </h3>
           </div>
         </a>
+        <div className="slick-caption-mobile">
+          <h3>
+            {this.state.name}
+          </h3>
+        </div>
       </div>
     );
   }
