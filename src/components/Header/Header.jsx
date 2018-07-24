@@ -15,15 +15,15 @@ import Drawer from "@material-ui/core/Drawer";
 import Menu from "@material-ui/icons/Menu";
 // core components
 import headerStyle from "assets/jss/material-kit-react/components/headerStyle.jsx";
-import whiteLogo from "whiteLogo.svg";
-import greyLogo from "greyLogo.svg";
+
+import Logo from "components/Typography/Logo.js";
 
 class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       mobileOpen: false,
-      logo: whiteLogo
+      logo: '#FFFFFF'
     };
     this.handleDrawerToggle = this.handleDrawerToggle.bind(this);
     this.headerColorChange = this.headerColorChange.bind(this);
@@ -47,7 +47,7 @@ class Header extends React.Component {
         .getElementsByTagName("header")[0]
         .classList.add(classes[changeColorOnScroll.color]);
       this.setState({
-        logo: greyLogo
+        logo: '#555555'
       });
     } else {
       document.body
@@ -57,7 +57,7 @@ class Header extends React.Component {
         .getElementsByTagName("header")[0]
         .classList.remove(classes[changeColorOnScroll.color]);
         this.setState({
-          logo: whiteLogo
+          logo: '#FFFFFF'
         });
     }
   }
@@ -85,7 +85,7 @@ class Header extends React.Component {
     const brandComponent = (
       <div>
         <Button className={classes.title} href="/">
-          <img src={this.state.logo} alt="Blockolony Logo" className="logo"/>
+          <Logo color={this.state.logo}/>
         </Button>
         <span className="brandName">Blockolony</span>
       </div>
