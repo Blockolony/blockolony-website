@@ -24,7 +24,7 @@ import team3 from "assets/img/faces/card-profile3-square.jpg";
 import team4 from "assets/img/faces/card-profile4-square.jpg";
 import team5 from "assets/img/faces/card-profile5-square.jpg";
 
-import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
+import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
 class ProfilePage extends React.Component {
   render() {
@@ -70,4 +70,4 @@ class ProfilePage extends React.Component {
   }
 }
 
-export default withStyles(profilePageStyle)(ProfilePage);
+export default withStyles(landingPageStyle)(ProfilePage);
