@@ -8,6 +8,11 @@ h1 {
     color: #FFFFFF !important;
 }
 
+a:hover, a:focus {
+    color: #354A9F !important;
+    text-decoration: none;
+}
+
 .logo {
     width: 60px;
     margin-bottom: -2px;
