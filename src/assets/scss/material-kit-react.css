@@ -92,7 +92,7 @@ a {
   text-decoration: none;
   background-color: transparent; }
   a:hover, a:focus {
-    color: #354A9F;
+    color: #354A9F !important;
     text-decoration: none; }
 
 label {
