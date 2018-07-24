@@ -11,7 +11,7 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import InfoArea from "components/InfoArea/InfoArea.jsx";
 
-import productStyle from "assets/jss/material-kit-react/views/landingPageSections/productStyle.jsx";
+import eventStyle from "assets/jss/material-kit-react/views/landingPageSections/eventStyle.jsx";
 import Carousel from "views/Components/Sections/SectionCarousel.jsx";
 
 class EventSection extends React.Component {
@@ -36,4 +36,4 @@ class EventSection extends React.Component {
   }
 }
 
-export default withStyles(productStyle)(EventSection);
+export default withStyles(eventStyle)(EventSection);
