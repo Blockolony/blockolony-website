@@ -8,6 +8,11 @@ h1 {
     color: #FFFFFF !important;
 }
 
+footer a:hover, a:focus {
+    color: #354A9F !important;
+    text-decoration: none;
+}
+
 .logo {
     width: 60px;
     margin-bottom: -2px;
@@ -68,4 +73,13 @@ h1 {
 
 .MuiSvgIcon-root-155 {
     margin-left: 10px !important;
+}
+
+.event-link {
+    color: #FFFFFF !important;
+}
+
+.event-link:hover, .event-link:focus {
+    color: #FFFFFF !important;
+    text-decoration: underline !important;
 }

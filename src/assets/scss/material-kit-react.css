@@ -750,7 +750,11 @@ td.rdtYear:hover {
     top: 5px; }
   .slick-slider .slick-image {
     width: 100% !important;
-    display: inline-flex !important; }
+    display: inline-flex !important;
+    -webkit-filter: brightness(80%) !important;
+    -moz-filter: brightness(80%) !important;
+    -o-filter: brightness(80%) !important;
+    filter: brightness(80%) !important; }
 
 .slick-list {
   position: relative;
