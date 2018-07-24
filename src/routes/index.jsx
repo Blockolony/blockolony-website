@@ -1,8 +1,8 @@
 import LandingPage from "views/LandingPage/LandingPage.jsx";
-import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
+import TeamPage from "views/TeamPage/TeamPage.jsx";
 
 var indexRoutes = [
-  { path: "/profile-page", name: "ProfilePage", component: ProfilePage },
+  { path: "/team", name: "TeamPage", component: TeamPage },
   { path: "/", name: "Home", component: LandingPage }
 ];
 
