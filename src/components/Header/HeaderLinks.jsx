@@ -24,7 +24,7 @@ function HeaderLinks({ ...props }) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href="/events"
+          href="/join"
           color="transparent"
           className={classes.navLink}
         >
@@ -38,15 +38,6 @@ function HeaderLinks({ ...props }) {
           className={classes.navLink}
         >
           <Event className={classes.icons} /> Events
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href="/map"
-          color="transparent"
-          className={classes.navLink}
-        >
-          <Map className={classes.icons} /> Map
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
