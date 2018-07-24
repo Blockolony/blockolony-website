@@ -10,7 +10,13 @@ import GridItem from "components/Grid/GridItem.jsx";
 import CustomInput from "components/CustomInput/CustomInput.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 
+import NavPills from "components/NavPills/NavPills.jsx";
+import pillsStyle from "assets/jss/material-kit-react/views/componentsSections/pillsStyle.jsx";
+
 import workStyle from "assets/jss/material-kit-react/views/landingPageSections/workStyle.jsx";
+
+// @material-ui/icons
+import { GroupAdd, PlaylistAdd, NoteAdd } from "@material-ui/icons";
 
 class WorkSection extends React.Component {
   render() {
@@ -18,57 +24,108 @@ class WorkSection extends React.Component {
     return (
       <div className={classes.section}>
         <GridContainer justify="center">
-          <GridItem cs={12} sm={12} md={8}>
+          <GridItem cs={12} sm={12} md={8} className="work-pills">
             <h2 className={classes.title}>Work with us</h2>
             <h4 className={classes.description}>
               We are actively looking for partners, sponsors and speakers for our
-              events. If you are interested in any of these, or simply want to make an
-              enquiry, get in touch.
+              events.
             </h4>
-            <form>
-              <GridContainer>
-                <GridItem xs={12} sm={12} md={6}>
-                  <CustomInput
-                    labelText="Your Name"
-                    id="name"
-                    formControlProps={{
-                      fullWidth: true
-                    }}
-                  />
-                </GridItem>
-                <GridItem xs={12} sm={12} md={6}>
-                  <CustomInput
-                    labelText="Your Email"
-                    id="email"
-                    formControlProps={{
-                      fullWidth: true
-                    }}
-                  />
-                </GridItem>
-                <GridItem xs={12} sm={12} md={12}>
-                  <CustomInput
-                    labelText="Your Message"
-                    id="message"
-                    formControlProps={{
-                      fullWidth: true,
-                      className: classes.textArea
-                    }}
-                    inputProps={{
-                      multiline: true,
-                      rows: 5
-                    }}
-                  />
-                </GridItem>
-                <GridItem
-                  xs={12}
-                  sm={12}
-                  md={12}
-                  className={classes.textCenter}
-                >
-                  <Button color="primary">Send Message</Button>
-                </GridItem>
-              </GridContainer>
-            </form>
+            <NavPills
+              color="primary"
+              horizontal={{
+                tabsGrid: { xs: 12, sm: 4, md: 4 },
+                contentGrid: { xs: 12, sm: 8, md: 8 }
+              }}
+              tabs={[
+                {
+                  tabButton: "Partners",
+                  tabIcon: GroupAdd,
+                  tabContent: (
+                    <span>
+                      <p>
+                        Collaboratively administrate empowered markets via
+                        plug-and-play networks. Dynamically procrastinate
+                        B2C users after installed base benefits.
+                      </p>
+                      <br />
+                      <p>
+                        Dramatically visualize customer directed convergence
+                        without revolutionary ROI. Collaboratively
+                        administrate empowered markets via plug-and-play
+                        networks. Dynamically procrastinate B2C users after
+                        installed base benefits.
+                      </p>
+                      <br />
+                      <p>
+                        Dramatically visualize customer directed convergence
+                        without revolutionary ROI. Collaboratively
+                        administrate empowered markets via plug-and-play
+                        networks. Dynamically procrastinate B2C users after
+                        installed base benefits.
+                      </p>
+                    </span>
+                  )
+                },
+                {
+                  tabButton: "Sponsors",
+                  tabIcon: NoteAdd,
+                  tabContent: (
+                    <span>
+                      <p>
+                        Collaboratively administrate empowered markets via
+                        plug-and-play networks. Dynamically procrastinate
+                        B2C users after installed base benefits.
+                      </p>
+                      <br />
+                      <p>
+                        Dramatically visualize customer directed convergence
+                        without revolutionary ROI. Collaboratively
+                        administrate empowered markets via plug-and-play
+                        networks. Dynamically procrastinate B2C users after
+                        installed base benefits.
+                      </p>
+                      <br />
+                      <p>
+                        Dramatically visualize customer directed convergence
+                        without revolutionary ROI. Collaboratively
+                        administrate empowered markets via plug-and-play
+                        networks. Dynamically procrastinate B2C users after
+                        installed base benefits.
+                      </p>
+                    </span>
+                  )
+                },
+                {
+                  tabButton: "Speakers",
+                  tabIcon: PlaylistAdd,
+                  tabContent: (
+                    <span>
+                      <p>
+                        Collaboratively administrate empowered markets via
+                        plug-and-play networks. Dynamically procrastinate
+                        B2C users after installed base benefits.
+                      </p>
+                      <br />
+                      <p>
+                        Dramatically visualize customer directed convergence
+                        without revolutionary ROI. Collaboratively
+                        administrate empowered markets via plug-and-play
+                        networks. Dynamically procrastinate B2C users after
+                        installed base benefits.
+                      </p>
+                      <br />
+                      <p>
+                        Dramatically visualize customer directed convergence
+                        without revolutionary ROI. Collaboratively
+                        administrate empowered markets via plug-and-play
+                        networks. Dynamically procrastinate B2C users after
+                        installed base benefits.
+                      </p>
+                    </span>
+                  )
+                }
+              ]}
+            />
           </GridItem>
         </GridContainer>
       </div>

@@ -37,19 +37,19 @@ class Event extends Component {
   render() {
     return(
       <div>
-        <img
-          src={this.state.pictureLink}
-          alt="First slide"
-          className="slick-image"
-          height="100%"
-        />
-        <div className="slick-caption">
-          <h3>
-            <a className="event-link" href={this.state.url} target="_blank">
+        <a href={this.state.url} target="_blank">
+          <img
+            src={this.state.pictureLink}
+            alt="First slide"
+            className="slick-image"
+            height="100%"
+          />
+          <div className="slick-caption">
+            <h3>
               {this.state.name}
-            </a>
-          </h3>
-        </div>
+            </h3>
+          </div>
+        </a>
       </div>
     );
   }
