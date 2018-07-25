@@ -60,8 +60,7 @@ h6 {
 
 p {
   font-size: 14px;
-  margin: 0 0 10px;
-  color: #999 }
+  margin: 0 0 10px; }
 
 html {
   font-family: sans-serif;
@@ -93,7 +92,7 @@ a {
   text-decoration: none;
   background-color: transparent; }
   a:hover, a:focus {
-    color: #354A9F !important;
+    color: #89229b;
     text-decoration: none; }
 
 label {
@@ -732,15 +731,10 @@ td.rdtYear:hover {
   @media (min-width: 768px) {
     .slick-slider .slick-caption {
       display: block !important; }
-    .slick-slider .slick-caption-mobile {
-      display: none !important; }
-    .slick-slider .slick-caption-mobile h4 {
-      line-height: 1 !important;
-      padding-left: 10px !important;
-      padding-right: 10px !important; }
+    .slick-slider .slick-caption-mobile h6 {
+      font-size: 20px !important; }
     .slick-slider .slick-dots {
-      display: none !important; }
-  }
+       margin-bottom: 4rem !important; } }
   .slick-slider .slick-caption {
     padding-bottom: 45px;
     position: absolute;
@@ -753,12 +747,9 @@ td.rdtYear:hover {
     text-align: center;
     z-index: 3;
     display: none; }
-  .slick-slider .slick-caption h2 {
-    font-weight: 400 !important;
-  }
   .slick-slider .slick-caption-mobile {
-    text-align: center;
-    color: #999; }
+    color: #354A9F !important;
+    line-height: 1;}
   .slick-slider .slick-slide > div:first-child {
     position: relative; }
   .slick-slider .slick-icons {
@@ -766,11 +757,7 @@ td.rdtYear:hover {
     top: 5px; }
   .slick-slider .slick-image {
     width: 100% !important;
-    display: inline-flex !important;
-    -webkit-filter: brightness(80%) !important;
-    -moz-filter: brightness(80%) !important;
-    -o-filter: brightness(80%) !important;
-    filter: brightness(80%) !important; }
+    display: inline-flex !important; }
 
 .slick-list {
   position: relative;
@@ -904,7 +891,7 @@ button.slick-arrow.slick-next {
 
 .slick-dots {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   position: absolute;
   bottom: 5px;
   width: 100%;

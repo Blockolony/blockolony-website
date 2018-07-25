@@ -77,11 +77,11 @@ function Footer({ ...props }) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://facebook.com/blockolony"
+                href="https://twitter.com/blockolony"
                 className={classes.block}
                 target="_blank"
               >
-                <i className={classes.socialIcons + " fab fa-facebook"} />
+                <i className={classes.socialIcons + " fab fa-twitter"} />
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>

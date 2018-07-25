@@ -8,7 +8,7 @@ h1 {
     color: #FFFFFF !important;
 }
 
-footer a:hover, a:focus {
+footer a:hover, footer a:focus {
     color: #354A9F !important;
     text-decoration: none;
 }

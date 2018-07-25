@@ -33,7 +33,7 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="/events"
+          href="https://blockolony.eventbrite.com/"
           color="transparent"
           className={classes.navLink}
         >
