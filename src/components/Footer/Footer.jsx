@@ -6,6 +6,8 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { List, ListItem, withStyles } from "@material-ui/core";
 
+import SimpleModalWrapped from "components/CustomButtons/SimpleModalWrapped.js";
+
 // @material-ui/icons
 import Favorite from "@material-ui/icons/Favorite";
 
@@ -25,42 +27,26 @@ function Footer({ ...props }) {
     <footer className={footerClasses}>
       <div className={classes.container}>
         <div className={classes.left}>
-          <List className={classes.list}>
+          <List className={classes.list} style={{marginTop: 10}}>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="/"
-                className={classes.block}
-                target="_blank"
-              >
-                Partners
-              </a>
+              <SimpleModalWrapped
+              button="Partners"
+              title="Our Partners"/>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="/"
-                className={classes.block}
-                target="_blank"
-              >
-                About
-              </a>
+              <SimpleModalWrapped
+              button="About"
+              title="About Us"/>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="/"
-                className={classes.block}
-                target="_blank"
-              >
-                Contact
-              </a>
+              <SimpleModalWrapped
+              button="Contact"
+              title="Contact Us"/>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="/"
-                className={classes.block}
-                target="_blank"
-              >
-                Legal
-              </a>
+              <SimpleModalWrapped
+              button="Legal"
+              title="Legal Notices"/>
             </ListItem>
           </List>
         </div>
