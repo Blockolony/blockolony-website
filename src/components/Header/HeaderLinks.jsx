@@ -27,6 +27,7 @@ function HeaderLinks({ ...props }) {
           href="/join"
           color="transparent"
           className={classes.navLink}
+          disabled
         >
           <CardMembership className={classes.icons} /> Join
         </Button>
@@ -54,6 +55,7 @@ function HeaderLinks({ ...props }) {
           href="/resources"
           color="transparent"
           className={classes.navLink}
+          disabled
         >
           <Book className={classes.icons} /> Resources
         </Button>
