@@ -6,6 +6,7 @@
     "@material-ui/core": "1.2.1",
     "@material-ui/icons": "1.1.0",
     "ajv": "6.0.0",
+    "babel": "^6.23.0",
     "dateformat": "^3.0.3",
     "history": "4.7.2",
     "moment": "2.22.2",
