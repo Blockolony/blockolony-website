@@ -56,7 +56,7 @@ class LandingPage extends React.Component {
                 <Button
                   color="danger"
                   size="lg"
-                  href="/events"
+                  href="https://blockolony.eventbrite.com"
                   rel="noopener noreferrer"
                 >
                   <i className="fas fa-compass" />Find events

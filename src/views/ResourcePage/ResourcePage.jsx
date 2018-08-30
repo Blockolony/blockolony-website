@@ -16,7 +16,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
-import TeamSection from "./TeamSectionNoHeader.jsx";
+import ResourceSection from "./ResourceSectionNoHeader.jsx";
 
 import team1 from "assets/img/faces/card-profile1-square.jpg";
 import team2 from "assets/img/faces/card-profile2-square.jpg";
@@ -26,7 +26,7 @@ import team5 from "assets/img/faces/card-profile5-square.jpg";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
-class TeamPage extends React.Component {
+class ResourcePage extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     const imageClasses = classNames(
@@ -52,7 +52,7 @@ class TeamPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1>Meet our team</h1>
+                <h1>Useful resources</h1>
               </GridItem>
             </GridContainer>
           </div>
@@ -60,7 +60,7 @@ class TeamPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
-              <TeamSection/>
+              <ResourceSection/>
             </div>
           </div>
         </div>
@@ -70,4 +70,4 @@ class TeamPage extends React.Component {
   }
 }
 
-export default withStyles(landingPageStyle)(TeamPage);
+export default withStyles(landingPageStyle)(ResourcePage);
