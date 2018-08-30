@@ -50,7 +50,7 @@ class LandingPage extends React.Component {
                   We have created a free resourceful network that anyone can
                   benefit from being a part of. Our events and educational
                   resources are for individuals interested in investing,
-                  developing, mining and learning more about blockchain technology.
+                  developing and learning more about blockchain technology.
                 </h4>
                 <br />
                 <Button
