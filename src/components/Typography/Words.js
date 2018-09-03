@@ -24,12 +24,12 @@ class Words extends Component {
         <h1 className="typist-header">Our mission is to be your blockchain
         {this.state.typing
           ? <Typist onTypingDone={this.done}>
-              <span> network</span>
-              <Typist.Backspace count={7} delay={2000} />
               <span> education</span>
               <Typist.Backspace count={9} delay={2000} />
-              <span> avenue</span>
+              <span> network</span>
               <Typist.Backspace count={7} delay={2000} />
+              <span> recruiter</span>
+              <Typist.Backspace count={9} delay={2000} />
             </Typist>
           : ''}
         </h1>

@@ -25,9 +25,9 @@ class WorkSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem cs={12} sm={12} md={8} className="work-pills">
-            <h2 className={classes.title}>Work with us</h2>
+            <h2 className={classes.title}>Join Us</h2>
             <h4 className={classes.description}>
-              We are actively looking for partners, sponsors and speakers for our
+              We are actively looking for members, partners and sponsors for our
               events.
             </h4>
             <NavPills
@@ -38,36 +38,37 @@ class WorkSection extends React.Component {
               }}
               tabs={[
                 {
-                  tabButton: "Partners",
+                  tabButton: "Members",
                   tabIcon: GroupAdd,
                   tabContent: (
                     <span>
                       <p>
-                        Collaboratively administrate empowered markets via
-                        plug-and-play networks. Dynamically procrastinate
-                        B2C users after installed base benefits.
+                        Members will benefit from Blockolony’s educational resources,
+                        global network and recruitment plus programme.
                       </p>
                       <br />
                       <p>
-                        Dramatically visualize customer directed convergence
-                        without revolutionary ROI. Collaboratively
-                        administrate empowered markets via plug-and-play
-                        networks. Dynamically procrastinate B2C users after
-                        installed base benefits.
+                        We are constantly adding educational resources to our portal
+                        for the benefit of those that want to learn more about
+                        all aspects of blockchain technology and its applications.
+                        Our ultimate goal is to create a standardised programme
+                        for members such that employers will recognise and respect
+                        a Blockolony qualification.
                       </p>
                       <br />
                       <p>
-                        Dramatically visualize customer directed convergence
-                        without revolutionary ROI. Collaboratively
-                        administrate empowered markets via plug-and-play
-                        networks. Dynamically procrastinate B2C users after
-                        installed base benefits.
+                        Anyone can join Blockolony as a Sapphire member and we
+                        welcome any individual from anywhere in the world into
+                        our network but we are initially focussing our resources
+                        on university students because that is a group of
+                        people who we feel we can reach most comprehensively
+                        given the team’s experience.
                       </p>
                     </span>
                   )
                 },
                 {
-                  tabButton: "Sponsors",
+                  tabButton: "Partners",
                   tabIcon: NoteAdd,
                   tabContent: (
                     <span>
@@ -96,7 +97,7 @@ class WorkSection extends React.Component {
                   )
                 },
                 {
-                  tabButton: "Speakers",
+                  tabButton: "Sponsors",
                   tabIcon: PlaylistAdd,
                   tabContent: (
                     <span>

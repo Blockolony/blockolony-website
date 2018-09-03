@@ -5,7 +5,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 import People from "@material-ui/icons/People";
 import Code from "@material-ui/icons/Code";
-import Mic from "@material-ui/icons/Mic";
+import Assignment from "@material-ui/icons/Assignment";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -20,13 +20,7 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>The global hub of the blockchain community</h2>
-            <h5 className={classes.description}>
-              We run various events which connect new, promising projects with investors,
-              allows networking between blockchain enthusiasts in your community,
-              provides a platform to be a speaker and allow others interested in the
-              space to share expertise and give advice to.
-            </h5>
+            <h2 className={classes.title}>The Global Hub of the Blockchain Community</h2>
           </GridItem>
         </GridContainer>
         <div>
@@ -34,7 +28,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Networking"
-                description="Meet industry professionals, investors, developers and enthusiasts at one of our local networking events in your community."
+                description="Meet industry professionals, investors, and developers at one of our local networking events in your community."
                 icon={People}
                 iconColor="info"
                 vertical
@@ -43,7 +37,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Workshops"
-                description="Develop your skills with our workshops and online resources taught by highly skilled experts within the blockchain space."
+                description="Develop skills with our seminars, workshops and online resources taught by experts within the industry."
                 icon={Code}
                 iconColor="success"
                 vertical
@@ -51,9 +45,9 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Seminars"
-                description="Learn from the most knowledgable speakers in the world and connect with them through our seminars and lectures."
-                icon={Mic}
+                title="Recruitment"
+                description="Build a career in blockchain by joining our recruitment setup to translate your knowledge to employment."
+                icon={Assignment}
                 iconColor="danger"
                 vertical
               />

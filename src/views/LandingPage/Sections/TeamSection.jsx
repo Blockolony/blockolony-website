@@ -16,11 +16,16 @@ import CardFooter from "components/Card/CardFooter.jsx";
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
-import team1 from "assets/img/faces/card-profile1-square.jpg";
-import team2 from "assets/img/faces/card-profile2-square.jpg";
-import team3 from "assets/img/faces/card-profile3-square.jpg";
-import team4 from "assets/img/faces/card-profile4-square.jpg";
-import team5 from "assets/img/faces/card-profile5-square.jpg";
+import dominic from "assets/img/faces/dominic.jpg";
+import shivil from "assets/img/faces/shivil.jpg";
+import ankit from "assets/img/faces/ankit.jpg";
+import harrison from "assets/img/faces/harrison.jpg";
+import zsolt from "assets/img/faces/zsolt.jpg";
+import rahul from "assets/img/faces/rahul.jpg";
+import jack from "assets/img/faces/jack.jpg";
+import rebecca from "assets/img/faces/rebecca.jpg";
+import ruskin from "assets/img/faces/ruskin.jpg";
+import tanya from "assets/img/faces/tanya.jpg";
 
 class TeamSection extends React.Component {
   render() {
@@ -38,7 +43,7 @@ class TeamSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={team1} alt="..." className={imageClasses} />
+                  <img src={dominic} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   Dominic Reynolds

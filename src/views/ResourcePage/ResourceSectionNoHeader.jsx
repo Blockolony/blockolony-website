@@ -16,14 +16,6 @@ import CardFooter from "components/Card/CardFooter.jsx";
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
-import team1 from "assets/img/faces/card-profile1-square.jpg";
-import team2 from "assets/img/faces/card-profile2-square.jpg";
-import team3 from "assets/img/faces/card-profile3-square.jpg";
-import team4 from "assets/img/faces/card-profile4-square.jpg";
-import team5 from "assets/img/faces/card-profile5-square.jpg";
-import team6 from "assets/img/faces/card-profile6-square.jpg";
-import team9 from "assets/img/faces/card-profile9-square.jpg";
-
 class ResourceSection extends React.Component {
   render() {
     const { classes } = this.props;

@@ -54,15 +54,6 @@ function Footer({ ...props }) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://instagram.com/blockolony"
-                className={classes.block}
-                target="_blank"
-              >
-                <i className={classes.socialIcons + " fab fa-instagram"} />
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
                 href="https://twitter.com/blockolony"
                 className={classes.block}
                 target="_blank"
@@ -72,11 +63,11 @@ function Footer({ ...props }) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://youtube.com/blockolony"
+                href="https://instagram.com/blockolony"
                 className={classes.block}
                 target="_blank"
               >
-                <i className={classes.socialIcons + " fab fa-youtube"} />
+                <i className={classes.socialIcons + " fab fa-instagram"} />
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -86,6 +77,51 @@ function Footer({ ...props }) {
                 target="_blank"
               >
                 <i className={classes.socialIcons + " fab fa-telegram-plane"} />
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://facebook.com/blockolony"
+                className={classes.block}
+                target="_blank"
+              >
+                <i className={classes.socialIcons + " fab fa-facebook"} />
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://medium.com/@blockolony"
+                className={classes.block}
+                target="_blank"
+              >
+                <i className={classes.socialIcons + " fab fa-medium"} />
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://www.youtube.com/channel/UCoyP0nFT-3gw5YvP7pxGlqQ"
+                className={classes.block}
+                target="_blank"
+              >
+                <i className={classes.socialIcons + " fab fa-youtube"} />
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://www.meetup.com/members/253224515/"
+                className={classes.block}
+                target="_blank"
+              >
+                <i className={classes.socialIcons + " fab fa-meetup"} />
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
+                href="https://www.linkedin.com/company/blockolony/"
+                className={classes.block}
+                target="_blank"
+              >
+                <i className={classes.socialIcons + " fab fa-linkedin"} />
               </a>
             </ListItem>
           </List>

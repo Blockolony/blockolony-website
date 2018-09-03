@@ -21,7 +21,7 @@ class EventSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Upcoming events</h2>
+            <h2 className={classes.title}>Upcoming Events</h2>
             <h5 className={classes.description}>
             Here are some of our upcoming events, to view all of our events head
             over to our events page.

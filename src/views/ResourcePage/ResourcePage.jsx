@@ -18,12 +18,6 @@ import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 import ResourceSection from "./ResourceSectionNoHeader.jsx";
 
-import team1 from "assets/img/faces/card-profile1-square.jpg";
-import team2 from "assets/img/faces/card-profile2-square.jpg";
-import team3 from "assets/img/faces/card-profile3-square.jpg";
-import team4 from "assets/img/faces/card-profile4-square.jpg";
-import team5 from "assets/img/faces/card-profile5-square.jpg";
-
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
 class ResourcePage extends React.Component {
