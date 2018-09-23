@@ -6,8 +6,6 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { List, ListItem, withStyles } from "@material-ui/core";
 
-import SimpleModalWrapped from "components/CustomButtons/SimpleModalWrapped.js";
-
 // @material-ui/icons
 import Favorite from "@material-ui/icons/Favorite";
 
@@ -27,26 +25,30 @@ function Footer({ ...props }) {
     <footer className={footerClasses}>
       <div className={classes.container}>
         <div className={classes.left}>
-          <List className={classes.list} style={{marginTop: 10}}>
+          <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              <SimpleModalWrapped
-              button="Partners"
-              title="Our Partners"/>
+              <a
+                href="/"
+                className={classes.block}
+              >
+                Home
+              </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <SimpleModalWrapped
-              button="About"
-              title="About Us"/>
+              <a
+                href="/#about"
+                className={classes.block}
+              >
+                About
+              </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <SimpleModalWrapped
-              button="Contact"
-              title="Contact Us"/>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <SimpleModalWrapped
-              button="Legal"
-              title="Legal Notices"/>
+              <a
+                href="mailto:info@blockolony.com"
+                className={classes.block}
+              >
+                Contact
+              </a>
             </ListItem>
           </List>
         </div>
