@@ -2,7 +2,10 @@ import { title } from "assets/jss/material-kit-react.jsx";
 
 const workStyle = {
   section: {
-    padding: "0px 0 70px 0"
+    padding: "0px 0 70px 0",
+    paddingTop: "50px",
+    paddingBottom: "80px",
+    marginTop: "60px",
   },
   title: {
     ...title,

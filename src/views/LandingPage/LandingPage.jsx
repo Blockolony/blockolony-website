@@ -56,10 +56,10 @@ class LandingPage extends React.Component {
                 <Button
                   color="danger"
                   size="lg"
-                  href="https://blockolony.eventbrite.com"
+                  href="https://www.youtube.com/watch?v=hfIGFEqTBqo"
                   rel="noopener noreferrer"
                 >
-                  <i className="fas fa-compass" />Find events
+                  <i className="fas fa-play" />Highlights
                 </Button>
               </GridItem>
             </GridContainer>
@@ -68,7 +68,15 @@ class LandingPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <ProductSection />
+          </div>
+        </div>
+        <div className={classNames(classes.main, classes.mainTransparent)}>
+          <div className={classes.container}>
             <EventSection />
+          </div>
+        </div>
+        <div className={classNames(classes.main, classes.mainRaised)}>
+          <div className={classes.container}>
             <WorkSection />
           </div>
         </div>

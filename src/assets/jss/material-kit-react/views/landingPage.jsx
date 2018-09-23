@@ -23,15 +23,18 @@ const landingPageStyle = {
   main: {
     background: "#FFFFFF",
     position: "relative",
-    zIndex: "3"
+    zIndex: "3",
+    paddingLeft: "5px",
+    paddingRight: "5px"
   },
   mainRaised: {
     margin: "-60px 20px 0px",
-    paddingLeft: "5px",
-    paddingRight: "5px",
     borderRadius: "6px",
     boxShadow:
       "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
+  },
+  mainTransparent: {
+    backgroundColor: "transparent"
   }
 };
 

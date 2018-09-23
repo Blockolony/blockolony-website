@@ -13,12 +13,20 @@ const footerStyle = {
     display: "block"
   },
   left: {
-    float: "left!important",
-    display: "block"
+    float: "left",
+    display: "block",
+    "@media only screen and (max-width: 768px)": {
+      float: "none",
+      textAlign: "center"
+    }
   },
   right: {
     margin: "0",
-    float: "right!important"
+    float: "right",
+    "@media only screen and (max-width: 768px)": {
+      float: "none",
+      textAlign: "center"
+    }
   },
   footer: {
     padding: "0.9375rem 0",
