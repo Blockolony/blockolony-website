@@ -24,10 +24,9 @@ function HeaderLinks({ ...props }) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href="/join"
+          href="https://goo.gl/forms/ylEY5lG9MGLmJxLi2"
           color="transparent"
           className={classes.navLink}
-          disabled
         >
           <CardMembership className={classes.icons} /> Join
         </Button>
