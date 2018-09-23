@@ -20,7 +20,7 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.jsx";
-import EventSection from "./Sections/EventSection.jsx";
+import PartnerSection from "./Sections/PartnerSection.jsx";
 import WorkSection from "./Sections/WorkSection.jsx";
 
 const dashboardRoutes = [];
@@ -72,7 +72,8 @@ class LandingPage extends React.Component {
         </div>
         <div className={classNames(classes.main, classes.mainTransparent)}>
           <div className={classes.container}>
-            <EventSection />
+            {/* <EventSection /> left out until there are more events */}
+            <PartnerSection />
           </div>
         </div>
         <div className={classNames(classes.main, classes.mainRaised)}>
