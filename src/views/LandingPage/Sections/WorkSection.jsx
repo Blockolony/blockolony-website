@@ -7,21 +7,14 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
-import CustomInput from "components/CustomInput/CustomInput.jsx";
-import Button from "components/CustomButtons/Button.jsx";
 import Card from "components/Card/Card.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import CardHeader from "components/Card/CardHeader.jsx";
-
-import CustomTabs from "components/CustomTabs/CustomTabs.jsx";
 
 import workStyle from "assets/jss/material-kit-react/views/landingPageSections/workStyle.jsx";
 
 import joinUsMembers from "assets/img/join-us-members.jpg";
 import joinUsInstitutions from "assets/img/join-us-institutions.jpg";
-
-// @material-ui/icons
-import { GroupAdd, PlaylistAdd, NoteAdd } from "@material-ui/icons";
 
 class WorkSection extends React.Component {
   render() {
@@ -40,7 +33,7 @@ class WorkSection extends React.Component {
                 <Card plain={classes.plainTabs}>
                   <CardHeader color={classes.headerColor} plain={classes.plainTabs}
                     style={{textAlign: "center", paddingTop: "60px"}}>
-                    <img src={joinUsMembers} width="100%" style={{
+                    <img src={joinUsMembers} alt="Members" width="100%" style={{
                       boxShadow:
                         "0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
                       borderRadius: "6px",
@@ -59,7 +52,7 @@ class WorkSection extends React.Component {
                 <Card plain={classes.plainTabs}>
                   <CardHeader color={classes.headerColor} plain={classes.plainTabs}
                     style={{textAlign: "center", paddingTop: "60px"}}>
-                    <img src={joinUsInstitutions} width="100%" style={{
+                    <img src={joinUsInstitutions} alt="Institutions" width="100%" style={{
                       boxShadow:
                         "0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
                       borderRadius: "6px",

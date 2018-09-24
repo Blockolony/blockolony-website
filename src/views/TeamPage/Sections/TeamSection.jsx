@@ -24,7 +24,6 @@ import zsolt from "assets/img/faces/zsolt.jpg";
 import rahul from "assets/img/faces/rahul.jpg";
 import jack from "assets/img/faces/jack.jpg";
 import rebecca from "assets/img/faces/rebecca.jpg";
-import ruskin from "assets/img/faces/ruskin.jpg";
 import tanya from "assets/img/faces/tanya.jpg";
 import pragati from "assets/img/faces/pragati.png";
 

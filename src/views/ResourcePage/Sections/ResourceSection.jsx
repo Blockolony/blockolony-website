@@ -1,6 +1,4 @@
 import React from "react";
-// nodejs library that concatenates classes
-import classNames from "classnames";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
@@ -19,11 +17,6 @@ import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/t
 class ResourceSection extends React.Component {
   render() {
     const { classes } = this.props;
-    const imageClasses = classNames(
-      classes.imgRaised,
-      classes.imgRoundedCircle,
-      classes.imgFluid
-    );
     return (
       <div className={classes.section}>
         <div>
