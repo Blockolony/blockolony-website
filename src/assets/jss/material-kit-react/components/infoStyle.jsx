@@ -43,7 +43,8 @@ const infoStyle = {
   },
   icon: {
     width: "36px",
-    height: "36px"
+    height: "36px",
+    marginLeft: "10px",
   },
   descriptionWrapper: {
     color: grayColor,
