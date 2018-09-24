@@ -20,63 +20,59 @@ class ResourceSection extends React.Component {
     return (
       <div className={classes.section}>
         <div>
-          <h2 className={classes.title}>Cryptoeconomics</h2>
+          <h2 className={classes.title}>University Institutions</h2>
           <GridContainer>
-            <GridItem xs={12} sm={12} md={4}>
+            <GridItem xs={12} sm={6} md={3}>
               <Card className={classes.card}>
                 <h4 className={classes.cardTitle}>
-                  CryptoTech Tutor
+                  University of Oxford
                   <br />
-                  <small className={classes.smallTitle}>Educational site to improve research techniques</small>
+                  <small className={classes.smallTitle}>Blockchain Strategy Programme</small>
                 </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    CryptoTech Tutor is an educational site that brings you courses in relation to
-                    Bitcoin, Cryptocurrency and Blockchain/Distributed Ledger Technology.
-                  </p>
-                </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-                  <Button color="primary" href="https://www.instagram.com/cryptotech_tutor/">
+                  <Button size="sm" color="primary" href="https://www.sbs.ox.ac.uk/programmes/oxford-blockchain-strategy-programme">
                     Learn More
                   </Button>
                 </CardFooter>
               </Card>
             </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
+            <GridItem xs={12} sm={6} md={3}>
               <Card className={classes.card}>
                 <h4 className={classes.cardTitle}>
-                  Cryptoeconomics.Study
+                  UC Berkeley
                   <br />
-                  <small className={classes.smallTitle}>A free and open source course on Cryptoeconomics</small>
+                  <small className={classes.smallTitle}>Blockchain at Berkeley</small>
                 </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    This introduction aims to define cryptoeconomics and outline some tools for
-                    the design and analysis of cryptoeconomic systems.
-                  </p>
-                </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-                  <Button color="primary" href="https://cryptoeconomics.study/">
+                  <Button size="sm" color="primary" href="https://blockchain.berkeley.edu">
                     Learn More
                   </Button>
                 </CardFooter>
               </Card>
             </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
+            <GridItem xs={12} sm={6} md={3}>
               <Card className={classes.card}>
                 <h4 className={classes.cardTitle}>
-                  Vlad Zamfir on Cryptoeconomics
+                  Princeton University
                   <br />
-                  <small className={classes.smallTitle}>Lecture on the meaning of Cryptoeconomics</small>
+                  <small className={classes.smallTitle}>BTC Tech Course</small>
                 </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    Vlad Zamfir is a researcher with the Ethereum Foundation, and this lecture covers
-                    sharding protocols and explains the idea of cryptoeconomics.
-                  </p>
-                </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-                  <Button color="primary" href="https://www.youtube.com/watch?v=cM5KYcOm66Y">
+                  <Button size="sm" color="primary" href="https://piazza.com/princeton/spring2015/btctech/resources">
+                    Learn More
+                  </Button>
+                </CardFooter>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={6} md={3}>
+              <Card className={classes.card}>
+                <h4 className={classes.cardTitle}>
+                  University of Nicosia
+                  <br />
+                  <small className={classes.smallTitle}>Blockchain Initiative</small>
+                </h4>
+                <CardFooter className={classes.justifyCenter}>
+                  <Button size="sm" color="primary" href="https://digitalcurrency.unic.ac.cy">
                     Learn More
                   </Button>
                 </CardFooter>
@@ -86,63 +82,121 @@ class ResourceSection extends React.Component {
 
           <br/>
 
-          <h2 className={classes.title}>Developing</h2>
+          <h2 className={classes.title}>Medium Blogs</h2>
           <GridContainer>
-            <GridItem xs={12} sm={12} md={4}>
+            <GridItem xs={12} sm={6} md={3}>
               <Card className={classes.card}>
                 <h4 className={classes.cardTitle}>
-                  Blockchain at Berkely
+                  Hackernoon
                   <br />
-                  <small className={classes.smallTitle}>A student run blockchain course for developers</small>
+                  <small className={classes.smallTitle}>Hacker resources</small>
                 </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    Learn about smart contract programming, testing, security and the
-                    underlying details of Bitcoin and Ethereum clients as part of Blockchain at Berkeley.
-                  </p>
-                </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-                  <Button color="primary" href="https://learnblockcha.in/">
+                  <Button size="sm" color="primary" href="https://medium.com/@hackernoon">
                     Learn More
                   </Button>
                 </CardFooter>
               </Card>
             </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
+            <GridItem xs={12} sm={6} md={3}>
               <Card className={classes.card}>
                 <h4 className={classes.cardTitle}>
-                  Cryptotextbook
+                  Vitalik Buterin
                   <br />
-                  <small className={classes.smallTitle}>A graduate course in applied cryptography</small>
+                  <small className={classes.smallTitle}>Personal blog</small>
                 </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    Cryptography is an indispensable tool used to protect information in computing systems.
-                    The book covers many constructions for different tasks in cryptography.
-                  </p>
-                </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-                  <Button color="primary" href="http://toc.cryptotextbook.net/home">
+                  <Button size="sm" color="primary" href="https://medium.com/@VitalikButerin">
                     Learn More
                   </Button>
                 </CardFooter>
               </Card>
             </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
+            <GridItem xs={12} sm={6} md={3}>
               <Card className={classes.card}>
                 <h4 className={classes.cardTitle}>
-                  Etheoryum
+                  Vlad Zamfir
                   <br />
-                  <small className={classes.smallTitle}>Open source Ethereum knowledge base</small>
+                  <small className={classes.smallTitle}>Personal blog</small>
                 </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    Learn about the fundamentals of blockchains and the Ethereum system,
-                    creating smart contracts, scalability research, governance mechanisms and more.
-                  </p>
-                </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-                  <Button color="primary" href="https://etheoryum.com/">
+                  <Button size="sm" color="primary" href="https://medium.com/@Vlad_Zamfir">
+                    Learn More
+                  </Button>
+                </CardFooter>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={6} md={3}>
+              <Card className={classes.card}>
+                <h4 className={classes.cardTitle}>
+                  Coin and Crypto
+                  <br />
+                  <small className={classes.smallTitle}>Crypto publication</small>
+                </h4>
+                <CardFooter className={classes.justifyCenter}>
+                  <Button size="sm" color="primary" href="https://medium.com/@coinandcrypto">
+                    Learn More
+                  </Button>
+                </CardFooter>
+              </Card>
+            </GridItem>
+          </GridContainer>
+
+          <br/>
+
+          <h2 className={classes.title}>News Sources</h2>
+          <GridContainer>
+            <GridItem xs={12} sm={6} md={3}>
+              <Card className={classes.card}>
+                <h4 className={classes.cardTitle}>
+                  Cointelegraph
+                  <br />
+                  <small className={classes.smallTitle}>Blockchain news</small>
+                </h4>
+                <CardFooter className={classes.justifyCenter}>
+                  <Button size="sm" color="primary" href="https://cointelegraph.com">
+                    Learn More
+                  </Button>
+                </CardFooter>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={6} md={3}>
+              <Card className={classes.card}>
+                <h4 className={classes.cardTitle}>
+                  CCN
+                  <br />
+                  <small className={classes.smallTitle}>Cryptocurrency news</small>
+                </h4>
+                <CardFooter className={classes.justifyCenter}>
+                  <Button size="sm" color="primary" href="https://www.ccn.com">
+                    Learn More
+                  </Button>
+                </CardFooter>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={6} md={3}>
+              <Card className={classes.card}>
+                <h4 className={classes.cardTitle}>
+                  Bitcoin News
+                  <br />
+                  <small className={classes.smallTitle}>Bitcoin Cash news</small>
+                </h4>
+                <CardFooter className={classes.justifyCenter}>
+                  <Button size="sm" color="primary" href="https://news.bitcoin.com">
+                    Learn More
+                  </Button>
+                </CardFooter>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={6} md={3}>
+              <Card className={classes.card}>
+                <h4 className={classes.cardTitle}>
+                  EWS
+                  <br />
+                  <small className={classes.smallTitle}>Ethereum news</small>
+                </h4>
+                <CardFooter className={classes.justifyCenter}>
+                  <Button size="sm" color="primary" href="https://ethereumworldnews.com">
                     Learn More
                   </Button>
                 </CardFooter>
