@@ -30,7 +30,7 @@ class ResourceSection extends React.Component {
           <h2 className={classes.title}>Cryptoeconomics</h2>
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
-              <Card plain>
+              <Card className={classes.card}>
                 <h4 className={classes.cardTitle}>
                   CryptoTech Tutor
                   <br />
@@ -50,7 +50,7 @@ class ResourceSection extends React.Component {
               </Card>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
-              <Card plain>
+              <Card className={classes.card}>
                 <h4 className={classes.cardTitle}>
                   Cryptoeconomics.Study
                   <br />
@@ -70,7 +70,7 @@ class ResourceSection extends React.Component {
               </Card>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
-              <Card plain>
+              <Card className={classes.card}>
                 <h4 className={classes.cardTitle}>
                   Vlad Zamfir on Cryptoeconomics
                   <br />
@@ -96,7 +96,7 @@ class ResourceSection extends React.Component {
           <h2 className={classes.title}>Developing</h2>
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
-              <Card plain>
+              <Card className={classes.card}>
                 <h4 className={classes.cardTitle}>
                   Blockchain at Berkely
                   <br />
@@ -116,7 +116,7 @@ class ResourceSection extends React.Component {
               </Card>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
-              <Card plain>
+              <Card className={classes.card}>
                 <h4 className={classes.cardTitle}>
                   Cryptotextbook
                   <br />
@@ -136,7 +136,7 @@ class ResourceSection extends React.Component {
               </Card>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
-              <Card plain>
+              <Card className={classes.card}>
                 <h4 className={classes.cardTitle}>
                   Etheoryum
                   <br />
