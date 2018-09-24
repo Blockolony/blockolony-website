@@ -11,11 +11,12 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import cardStyle from "assets/jss/material-kit-react/components/cardStyle.jsx";
 
 function Card({ ...props }) {
-  const { classes, className, children, plain, carousel, ...rest } = props;
+  const { classes, className, children, plain, nopadding, carousel, ...rest } = props;
   const cardClasses = classNames({
     [classes.card]: true,
     [classes.cardPlain]: plain,
     [classes.cardCarousel]: carousel,
+    [classes.cardNoPadding]: nopadding,
     [className]: className !== undefined
   });
   return (
@@ -29,6 +30,7 @@ Card.propTypes = {
   classes: PropTypes.object.isRequired,
   className: PropTypes.string,
   plain: PropTypes.bool,
+  nopadding: PropTypes.bool,
   carousel: PropTypes.bool
 };
 

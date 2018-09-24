@@ -39,70 +39,70 @@ class PartnerSection extends React.Component {
         <div>
           <GridContainer>
             <GridItem xs={4} sm={3} md={3}>
-              <Card plain>
+              <Card plain nopadding>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                   <img src={radius} alt="..." className={imageClasses} />
                 </GridItem>
               </Card>
             </GridItem>
             <GridItem xs={4} sm={3} md={3}>
-              <Card plain>
+              <Card plain nopadding>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                   <img src={cashaa} alt="..." className={imageClasses} />
                 </GridItem>
               </Card>
             </GridItem>
             <GridItem xs={4} sm={3} md={3}>
-              <Card plain>
+              <Card plain nopadding>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                   <img src={deltech} alt="..." className={imageClasses} />
                 </GridItem>
               </Card>
             </GridItem>
             <GridItem xs={4} sm={3} md={3}>
-              <Card plain>
+              <Card plain nopadding>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                   <img src={universityofdelhi} alt="..." className={imageClasses} />
                 </GridItem>
               </Card>
             </GridItem>
             <GridItem xs={4} sm={3} md={3}>
-              <Card plain>
+              <Card plain nopadding>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                   <img src={mfcequity} alt="..." className={imageClasses} />
                 </GridItem>
               </Card>
             </GridItem>
             <GridItem xs={4} sm={3} md={3}>
-              <Card plain>
+              <Card plain nopadding>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                   <img src={e} alt="..." className={imageClasses} />
                 </GridItem>
               </Card>
             </GridItem>
             <GridItem xs={4} sm={3} md={3}>
-              <Card plain>
+              <Card plain nopadding>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                   <img src={equichain} alt="..." className={imageClasses} />
                 </GridItem>
               </Card>
             </GridItem>
             <GridItem xs={4} sm={3} md={3}>
-              <Card plain>
+              <Card plain nopadding>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                   <img src={lbx} alt="..." className={imageClasses} />
                 </GridItem>
               </Card>
             </GridItem>
             <GridItem xs={4} sm={3} md={3}>
-              <Card plain>
+              <Card plain nopadding>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                   <img src={ethzurich} alt="..." className={imageClasses} />
                 </GridItem>
               </Card>
             </GridItem>
             <GridItem xs={4} sm={3} md={3}>
-              <Card plain>
+              <Card plain nopadding>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                   <img src={startupweekend} alt="..." className={imageClasses} />
                 </GridItem>

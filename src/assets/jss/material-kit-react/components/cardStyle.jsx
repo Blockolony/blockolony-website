@@ -18,6 +18,9 @@ const cardStyle = {
     transition: "all 300ms linear",
     padding: "20px"
   },
+  cardNoPadding: {
+    padding: "0 !important"
+  },
   cardPlain: {
     background: "transparent",
     boxShadow: "none"
