@@ -36,11 +36,15 @@ class WorkSection extends React.Component {
               events.
             </h4>
             <GridContainer justify="center">
-              <GridItem cs={12} sm={12} md={6}>
+              <GridItem cs={12} sm={6}>
                 <Card plain={classes.plainTabs}>
                   <CardHeader color={classes.headerColor} plain={classes.plainTabs}
                     style={{textAlign: "center", paddingTop: "60px"}}>
-                    <img src={joinUsMembers} width="80%"/>
+                    <img src={joinUsMembers} width="100%" style={{
+                      boxShadow:
+                        "0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
+                      borderRadius: "6px"
+                    }}/>
                   </CardHeader>
                   <CardBody>
                     <p>
@@ -50,11 +54,15 @@ class WorkSection extends React.Component {
                   </CardBody>
                 </Card>
               </GridItem>
-              <GridItem cs={12} sm={12} md={6}>
+              <GridItem cs={12} sm={6}>
                 <Card plain={classes.plainTabs}>
                   <CardHeader color={classes.headerColor} plain={classes.plainTabs}
                     style={{textAlign: "center", paddingTop: "60px"}}>
-                    <img src={joinUsInstitutions} width="80%"/>
+                    <img src={joinUsInstitutions} width="100%" style={{
+                      boxShadow:
+                        "0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
+                      borderRadius: "6px"
+                    }}/>
                   </CardHeader>
                   <CardBody>
                     <p>
