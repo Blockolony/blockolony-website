@@ -38,7 +38,7 @@ class CustomTabs extends React.Component {
       [classes.cardTitleRTL]: rtlActive
     });
     return (
-      <Card plain={plainTabs}>
+      <Card plain={plainTabs} className={classes.sectionWrapper}>
         <CardHeader color={headerColor} plain={plainTabs}>
           {title !== undefined ? (
             <div className={cardTitle}>{title}</div>

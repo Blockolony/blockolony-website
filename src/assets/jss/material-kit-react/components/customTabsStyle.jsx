@@ -1,4 +1,7 @@
 const customTabsStyle = {
+  sectionWrapper: {
+    marginTop: "60px"
+  },
   cardTitle: {
     float: "left",
     padding: "10px 10px 10px 0px",
