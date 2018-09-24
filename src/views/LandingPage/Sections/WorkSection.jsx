@@ -43,7 +43,8 @@ class WorkSection extends React.Component {
                     <img src={joinUsMembers} width="100%" style={{
                       boxShadow:
                         "0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
-                      borderRadius: "6px"
+                      borderRadius: "6px",
+                      marginBottom: "20px"
                     }}/>
                   </CardHeader>
                   <CardBody>
@@ -61,7 +62,8 @@ class WorkSection extends React.Component {
                     <img src={joinUsInstitutions} width="100%" style={{
                       boxShadow:
                         "0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
-                      borderRadius: "6px"
+                      borderRadius: "6px",
+                      marginBottom: "20px"
                     }}/>
                   </CardHeader>
                   <CardBody>
