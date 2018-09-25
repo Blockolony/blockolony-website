@@ -13,14 +13,12 @@ import Card from "components/Card/Card.jsx";
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
-import radius from "assets/img/partners/radius.png";
 import cashaa from "assets/img/partners/cashaa.png";
 import deltech from "assets/img/partners/deltech.png";
 import universityofdelhi from "assets/img/partners/universityofdelhi.png";
 import mfcequity from "assets/img/partners/mfcequity.png";
 import e from "assets/img/partners/e.png";
 import equichain from "assets/img/partners/equichain.png";
-import lbx from "assets/img/partners/lbx.png";
 import ethzurich from "assets/img/partners/ethzurich.png";
 import startupweekend from "assets/img/partners/startupweekend.png";
 
@@ -35,13 +33,6 @@ class PartnerSection extends React.Component {
         <h2 className={classes.title}>Past Collaborations</h2>
         <div>
           <GridContainer>
-            <GridItem xs={4} sm={3} md={3}>
-              <Card plain nopadding>
-                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={radius} alt="..." className={imageClasses} />
-                </GridItem>
-              </Card>
-            </GridItem>
             <GridItem xs={4} sm={3} md={3}>
               <Card plain nopadding>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
@@ -81,13 +72,6 @@ class PartnerSection extends React.Component {
               <Card plain nopadding>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                   <img src={equichain} alt="..." className={imageClasses} />
-                </GridItem>
-              </Card>
-            </GridItem>
-            <GridItem xs={4} sm={3} md={3}>
-              <Card plain nopadding>
-                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={lbx} alt="..." className={imageClasses} />
                 </GridItem>
               </Card>
             </GridItem>

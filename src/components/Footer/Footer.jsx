@@ -44,6 +44,14 @@ function Footer({ ...props }) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
+                href="https://goo.gl/forms/ylEY5lG9MGLmJxLi2"
+                className={classes.block}
+              >
+                Subscribe
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
                 href="mailto:info@blockolony.com"
                 className={classes.block}
               >
