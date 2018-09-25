@@ -40,6 +40,7 @@ function HeaderLinks({ ...props }) {
           <Event className={classes.icons} /> Events
         </Button>
       </ListItem>
+      {/*
       <ListItem className={classes.listItem}>
         <Button
           href="/team"
@@ -49,6 +50,7 @@ function HeaderLinks({ ...props }) {
           <People className={classes.icons} /> Team
         </Button>
       </ListItem>
+      */}
       <ListItem className={classes.listItem}>
         <Button
           href="/resources"
