@@ -1,5 +1,14 @@
 import React, { Component } from 'react';
+// nodejs library to set properties for components
+import PropTypes from "prop-types";
+
+// @material-ui/core components
+import withStyles from "@material-ui/core/styles/withStyles";
+
+// core components
 import Typist from 'react-typist';
+
+import wordsStyle from "assets/jss/material-kit-react/components/wordsStyle.jsx";
 
 class Words extends Component {
 
@@ -7,23 +16,22 @@ class Words extends Component {
     super(props);
     this.state = {
       typing: true
-    }
-
-    this.done = this.done.bind(this);
+    };
   }
 
-  done() {
+  done = () => {
     this.setState({ typing: false }, () => {
       this.setState({ typing: true })
     });
-  }
+  };
 
   render() {
+    const { classes } = this.props;
     return (
       <div>
-        <h1 className="typist-header">Our mission is to be your blockchain
+        <h1 className={classes.typistHeader}>Our mission is to be your blockchain
         {this.state.typing
-          ? <Typist onTypingDone={this.done}>
+          ? <Typist className={classes.typistWrapper} onTypingDone={this.done}>
               <span> education</span>
               <Typist.Backspace count={9} delay={2000} />
               <span> network</span>
@@ -39,4 +47,8 @@ class Words extends Component {
   }
 }
 
-export default Words;
+Words.propTypes = {
+  classes: PropTypes.object.isRequired
+};
+
+export default withStyles(wordsStyle)(Words);

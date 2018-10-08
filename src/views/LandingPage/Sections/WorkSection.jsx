@@ -41,7 +41,7 @@ class WorkSection extends React.Component {
                     }}/>
                   </CardHeader>
                   <CardBody>
-                    <p>
+                    <p className={classes.description}>
                       Members will benefit from Blockolony’s educational resources,
                       global network of enthusiasts and recruitment plus programme.
                     </p>
@@ -60,7 +60,7 @@ class WorkSection extends React.Component {
                     }}/>
                   </CardHeader>
                   <CardBody>
-                    <p>
+                    <p className={classes.description}>
                       Institutions will benefit from attending, speaking and sponsoring
                       our events as well as hand picking top talent from our members.
                     </p>

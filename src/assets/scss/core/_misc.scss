@@ -22,8 +22,10 @@ h4, h5, h6 {
     margin-bottom: 10px;
 }
 h1 {
+    font-family: "Gill Sans", "Helvetica", "Arial", sans-serif;
     font-size: 3.3125rem;
     line-height: 1.15em;
+    margin-bottom: 20px;
 }
 h2 {
   font-size: 2.25rem;
@@ -35,8 +37,10 @@ h3 {
 }
 h4 {
   font-size: 1.125rem;
-  line-height: 1.5em;
-}
+  line-height: 1.5em; }
+  @media only screen and (max-width: 768px) {
+    h4 {
+      font-size: 0.9rem; } }
 h5 {
   font-size: 1.0625rem;
   line-height: 1.55em;

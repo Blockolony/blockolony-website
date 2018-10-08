@@ -16,7 +16,7 @@ import Menu from "@material-ui/icons/Menu";
 // core components
 import headerStyle from "assets/jss/material-kit-react/components/headerStyle.jsx";
 
-import Logo from "components/Typography/Logo.js";
+import Logo from "components/Typography/Logo.jsx";
 
 class Header extends React.Component {
   constructor(props) {
@@ -86,7 +86,8 @@ class Header extends React.Component {
         <Button className={classes.title} href="/">
           <Logo color={this.state.logo}/>
         </Button>
-        <span className="brandName">Blockolony</span>
+        <span className={this.state.logo === "#FFFFFF"
+          ? classes.brandName : classes.brandNameHidden}>Blockolony</span>
       </div>
     );
     return (

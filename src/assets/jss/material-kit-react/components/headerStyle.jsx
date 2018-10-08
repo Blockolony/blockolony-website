@@ -31,6 +31,15 @@ const headerStyle = {
     position: "relative",
     zIndex: "unset"
   },
+  brandName: {
+    fontFamily: "'Gill Sans', 'Helvetica', 'Arial', sans-serif",
+    fontWeight: "400",
+    fontSize: "21px",
+    display: "block"
+  },
+  brandNameHidden: {
+    display: "none",
+  },
   absolute: {
     position: "absolute"
   },

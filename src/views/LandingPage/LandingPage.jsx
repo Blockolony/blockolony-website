@@ -14,7 +14,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
-import Words from "components/Typography/Words.js";
+import Words from "components/Typography/Words.jsx";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
@@ -44,7 +44,7 @@ class LandingPage extends React.Component {
         <Parallax image={require("assets/img/landing-bg.jpg")}>
           <div className={classes.container}>
             <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
+              <GridItem xs={12} sm={12} md={8}>
                 <Words/>
                 <h4>
                   We have created a resourceful network that any blockchain student,
