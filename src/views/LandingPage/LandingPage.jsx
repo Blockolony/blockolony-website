@@ -4,7 +4,7 @@ import classNames from "classnames";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
-// @material-ui/icons
+import {isMobile} from 'react-device-detect';
 
 // core components
 import Header from "components/Header/Header.jsx";
@@ -68,7 +68,8 @@ class LandingPage extends React.Component {
                 <Button
                   color="danger"
                   size="lg"
-                  onClick={this.handleClick}
+                  onClick={!isMobile ? this.handleClick : null}
+                  href={isMobile ? "https://www.youtube.com/watch?v=hfIGFEqTBqo" : null}
                   rel="noopener noreferrer"
                 >
                   <i className="fas fa-play" />Highlights
@@ -77,10 +78,12 @@ class LandingPage extends React.Component {
             </GridContainer>
           </div>
         </Parallax>
-        <YoutubeOverlay
+        {!isMobile ? <YoutubeOverlay
           videoId="hfIGFEqTBqo"
           open={this.state.youtubeOverlayOpen}
           onClick={this.handleClick}/>
+          : null
+        }
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <ProductSection />
