@@ -23,7 +23,10 @@ class Event extends Component {
   }
 
   componentDidMount() {
-    fetch('https://www.eventbriteapi.com/v3/users/me/owned_events/?token=7QUBP6MTSUWMGLCOQUG6')
+    let tokenQueryParameter = '?token=' + process.env.EVENTBRITE_API_TOKEN;
+    let eventUrl = 'https://www.eventbriteapi.com/v3/users/me/owned_events/';
+    eventUrl += tokenQueryParameter;
+    fetch(eventUrl)
     .then(results => {
       return results.json();
     }).then(data => {
@@ -38,7 +41,7 @@ class Event extends Component {
 
       let venueUrl = 'https://www.eventbriteapi.com/v3/venues/';
       venueUrl += event.venue_id;
-      venueUrl += '/?token=7QUBP6MTSUWMGLCOQUG6';
+      venueUrl += tokenQueryParameter;
       return fetch(venueUrl);
     }).then(results => {
       return results.json();
@@ -47,7 +50,7 @@ class Event extends Component {
         location: data.name + ", " + data.address.localized_area_display
       })
     }).catch(e => {
-
+      console.error(e);
     });
   }
 
