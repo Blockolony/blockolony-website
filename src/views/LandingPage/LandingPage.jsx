@@ -15,6 +15,7 @@ import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 import Words from "components/Typography/Words.jsx";
+import YoutubeOverlay from "components/Overlays/YoutubeOverlay.jsx";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
@@ -26,6 +27,17 @@ import WorkSection from "./Sections/WorkSection.jsx";
 const dashboardRoutes = [];
 
 class LandingPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      youtubeOverlayOpen: false
+    };
+  }
+  handleClick = (event, active) => {
+    this.setState(state => ({
+      youtubeOverlayOpen: !state.youtubeOverlayOpen
+    }));
+  }
   render() {
     const { classes, ...rest } = this.props;
     return (
@@ -56,7 +68,7 @@ class LandingPage extends React.Component {
                 <Button
                   color="danger"
                   size="lg"
-                  href="https://www.youtube.com/watch?v=hfIGFEqTBqo"
+                  onClick={this.handleClick}
                   rel="noopener noreferrer"
                 >
                   <i className="fas fa-play" />Highlights
@@ -65,6 +77,10 @@ class LandingPage extends React.Component {
             </GridContainer>
           </div>
         </Parallax>
+        <YoutubeOverlay
+          videoId="hfIGFEqTBqo"
+          open={this.state.youtubeOverlayOpen}
+          onClick={this.handleClick}/>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <ProductSection />
