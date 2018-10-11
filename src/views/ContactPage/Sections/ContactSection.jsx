@@ -26,9 +26,8 @@ class ContactSection extends React.Component {
               enquiry, get in touch.
             </h4>
             <form
-              action="/success"
               name="contact"
-              method="POST"
+              method="post"
             >
               <input type="hidden" name="form-name" value="contact" />
               <GridContainer>
