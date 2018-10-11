@@ -52,7 +52,7 @@ function Footer({ ...props }) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="mailto:info@blockolony.com"
+                href="/contact"
                 className={classes.block}
               >
                 Contact
