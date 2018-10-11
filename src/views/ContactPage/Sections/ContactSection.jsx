@@ -19,7 +19,7 @@ class ContactSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem cs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Work with us</h2>
+            <h2 className={classes.title}>Get in touch</h2>
             <h4 className={classes.description}>
               We are actively looking for partners, sponsors and speakers for our
               events. If you are interested in any of these, or simply want to make an

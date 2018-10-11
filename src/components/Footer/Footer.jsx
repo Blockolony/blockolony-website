@@ -47,7 +47,7 @@ function Footer({ ...props }) {
                 href="https://goo.gl/forms/ylEY5lG9MGLmJxLi2"
                 className={classes.block}
               >
-                Subscribe
+                Join
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>

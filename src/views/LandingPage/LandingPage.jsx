@@ -23,6 +23,7 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 import ProductSection from "./Sections/ProductSection.jsx";
 import PartnerSection from "./Sections/PartnerSection.jsx";
 import WorkSection from "./Sections/WorkSection.jsx";
+import SubscribeSection from "./Sections/SubscribeSection.jsx";
 
 const dashboardRoutes = [];
 
@@ -98,6 +99,12 @@ class LandingPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <WorkSection />
+          </div>
+        </div>
+        <div className={classNames(classes.main, classes.mainTransparent)}>
+          <div className={classes.container}>
+            {/* <EventSection /> left out until there are more events */}
+            <SubscribeSection />
           </div>
         </div>
         <Footer />
