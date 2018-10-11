@@ -11,7 +11,7 @@ import Card from "components/Card/Card.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import CardHeader from "components/Card/CardHeader.jsx";
 
-import workStyle from "assets/jss/material-kit-react/views/landingPageSections/workStyle.jsx";
+import joinStyle from "assets/jss/material-kit-react/views/landingPageSections/joinStyle.jsx";
 
 import joinUsMembers from "assets/img/join-us-members.jpg";
 import joinUsInstitutions from "assets/img/join-us-institutions.jpg";
@@ -75,4 +75,4 @@ class WorkSection extends React.Component {
   }
 }
 
-export default withStyles(workStyle)(WorkSection);
+export default withStyles(joinStyle)(WorkSection);
