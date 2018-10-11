@@ -1,15 +1,4 @@
 [[redirects]]
-  from = "/resources"
-  to = "/resources"
-
-[[redirects]]
-  from = "/team"
-  to = "/team"
-
-[[redirects]]
-  from = "/contact"
-  to = "/contact"
-
-[[redirects]]
-  from = "/contact/success"
-  to = "/contact/success"
+  from = "/*"
+  to = "/index.html"
+  status = 200
