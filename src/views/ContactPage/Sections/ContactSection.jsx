@@ -29,8 +29,10 @@ class ContactSection extends React.Component {
               action="/success"
               name="contact"
               method="POST"
-              netlify
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
             >
+              <input type="hidden" name="form-name" value="contact" />
               <GridContainer>
                 <GridItem xs={12} sm={12} md={6}>
                   <CustomInput
