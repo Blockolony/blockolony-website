@@ -38,8 +38,10 @@ class ContactSection extends React.Component {
                     formControlProps={{
                       fullWidth: true
                     }}
-                    type="text"
-                    name="name"
+                    inputProps={{
+                      type: "text",
+                      name: "name"
+                    }}
                   />
                 </GridItem>
                 <GridItem xs={12} sm={12} md={6}>
@@ -49,8 +51,10 @@ class ContactSection extends React.Component {
                     formControlProps={{
                       fullWidth: true
                     }}
-                    type="email"
-                    name="email"
+                    inputProps={{
+                      type: "email",
+                      name: "email"
+                    }}
                   />
                 </GridItem>
                 <CustomInput
@@ -62,9 +66,9 @@ class ContactSection extends React.Component {
                   }}
                   inputProps={{
                     multiline: true,
-                    rows: 5
+                    rows: 5,
+                    name: "message"
                   }}
-                  name="message"
                 />
                 <GridItem
                   xs={12}
