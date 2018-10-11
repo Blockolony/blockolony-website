@@ -26,10 +26,10 @@ class ContactSection extends React.Component {
               enquiry, get in touch.
             </h4>
             <form
+              action="/contact/success"
               name="contact"
               method="POST"
-              data-netlify="true"
-              action="/contact/success"
+              netlify
             >
               <GridContainer>
                 <GridItem xs={12} sm={12} md={6}>
