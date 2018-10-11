@@ -26,7 +26,7 @@ class ContactSection extends React.Component {
               enquiry, get in touch.
             </h4>
             <form
-              action="/contact/success"
+              action="/success"
               name="contact"
               method="POST"
               netlify
