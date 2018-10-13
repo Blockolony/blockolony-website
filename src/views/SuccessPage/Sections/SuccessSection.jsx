@@ -10,7 +10,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 
 import workStyle from "assets/jss/material-kit-react/views/landingPageSections/workStyle.jsx";
 
-class ContactSuccessSection extends React.Component {
+class SuccessSection extends React.Component {
   render() {
     const { classes } = this.props;
     return (
@@ -19,7 +19,7 @@ class ContactSuccessSection extends React.Component {
           <GridItem cs={12} sm={12} md={8}>
             <h2 className={classes.title}>Success</h2>
             <h4 className={classes.description}>
-              We have received your message and will be in touch soon!
+              We have received your submission and will be in touch soon!
             </h4>
           </GridItem>
         </GridContainer>
@@ -28,4 +28,4 @@ class ContactSuccessSection extends React.Component {
   }
 }
 
-export default withStyles(workStyle)(ContactSuccessSection);
+export default withStyles(workStyle)(SuccessSection);

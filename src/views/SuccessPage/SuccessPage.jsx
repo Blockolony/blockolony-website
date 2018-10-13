@@ -10,11 +10,11 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
-import ContactSuccessSection from "./Sections/ContactSuccessSection.jsx";
+import SuccessSection from "./Sections/SuccessSection.jsx";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
-class ContactSuccessPage extends React.Component {
+class SuccessPage extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     return (
@@ -42,7 +42,7 @@ class ContactSuccessPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
-              <ContactSuccessSection/>
+              <SuccessSection/>
             </div>
           </div>
         </div>
@@ -52,4 +52,4 @@ class ContactSuccessPage extends React.Component {
   }
 }
 
-export default withStyles(landingPageStyle)(ContactSuccessPage);
+export default withStyles(landingPageStyle)(SuccessPage);
