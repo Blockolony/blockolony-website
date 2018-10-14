@@ -10,6 +10,66 @@
  * License Creative Tim (https://www.creative-tim.com/license)
  *
  * ========================================================= */
+@font-face {
+  font-family: 'Gill Sans';
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/GillSans-Light.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Gill Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/GillSans.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Kiona';
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Kiona-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Kiona';
+  font-weight: 300;
+  font-style: italic;
+  src: url("../fonts/Kiona-LightItallic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Kiona';
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Kiona-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Kiona';
+  font-weight: 400;
+  font-style: italic;
+  src: url("../fonts/Kiona-Itallic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Kiona';
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/Kiona-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Kiona';
+  font-weight: 600;
+  font-style: italic;
+  src: url("../fonts/Kiona-SemiBoldItallic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Kiona';
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Kiona-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Kiona';
+  font-weight: 700;
+  font-style: italic;
+  src: url("../fonts/Kiona-BoldItallic.ttf") format("truetype"); }
+
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
