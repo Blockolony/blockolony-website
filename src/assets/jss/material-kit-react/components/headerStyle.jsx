@@ -38,7 +38,7 @@ const headerStyle = {
     display: "block"
   },
   brandNameHidden: {
-    display: "none",
+    display: "none"
   },
   absolute: {
     position: "absolute"
@@ -69,7 +69,8 @@ const headerStyle = {
     "&:hover,&:focus": {
       color: "inherit",
       background: "transparent"
-    }
+    },
+    padding: "6px 15px"
   },
   appResponsive: {
     margin: "20px 10px"
@@ -131,7 +132,7 @@ const headerStyle = {
     boxShadow:
       "0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15)",
     "& .brandName": {
-      display: "none",
+      display: "none"
     }
   },
   drawerPaper: {
